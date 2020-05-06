@@ -50,6 +50,7 @@
 
 
 ### src目录结构
+```
 |-- vue-mobile-video-learning-webapp
     |-- App.vue
     |-- main.js                              //项目主入口
@@ -101,7 +102,7 @@
         |   |-- MyLearning.vue
         |-- SearchResult                     //搜索页
             |-- SearchResult.vue
-
+```
 
 ## 技术关键点和问题
 
