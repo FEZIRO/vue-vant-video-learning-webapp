@@ -52,6 +52,7 @@
 
 
 ### src目录结构
+```
 |-- vue-mobile-video-learning-webapp
     |-- App.vue
     |-- main.js                              //项目主入口
@@ -104,7 +105,7 @@
         |-- SearchResult                     //搜索页
             |-- SearchResult.vue
 
-
+```
 ## 技术关键点和问题
 
 下面只说说实现的关键技术点和问题细节描述。
@@ -384,12 +385,11 @@ vue做网页其实很容易引起白屏，使用路由懒加载可以加快加�
 
 <br>
 
-#### 分配置环境测试与打包
+#### 分配置环境测试与打包（官方文档 'https://cli.vuejs.org/zh/guide/mode-and-env.html'）
 
 不同的配置环境是为了区分正式和测试版本的运行环境如：测试版本需要运行专门的测试服务器，需要添加调试语句和移动端调试器，没有压缩优化代码等，这些为了开发调试而专门设置的工具会在正式版本打包中应要被删除或者优化。
 
-vue-cli3简化了分环境配置文件，可以在项目根目录新建配置文件`.env.[模式名称]`，如`.env.dev`
-（官方文档 'https://cli.vuejs.org/zh/guide/mode-and-env.html'），如不用自定义环境配置文件可以通过全局访问`process.env.NODE_ENV`来区分正式（production）和测试环境（development）<br>
+vue-cli3简化了分环境配置文件，可以在项目根目录新建配置文件`.env.[模式名称]`，如`.env.dev`,如不用自定义环境配置文件可以通过全局访问`process.env.NODE_ENV`来区分正式（production）和测试环境（development）<br>
 
 添加npm命令即可运行自定义模式和访问`process.env`对象获取相应配置信息。
 ``````javascript
