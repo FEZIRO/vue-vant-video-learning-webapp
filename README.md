@@ -366,7 +366,7 @@ const validateStrategy = {
 
 /* 这种写法可以直接验证，也可以向自定义form组件属性传入验证函数
 *  直接验证 Validator('telephone')(value)
-*	 通过 Validator('telephone') 返回的验证函数通过属性的方式传入自定义form组件 
+*  通过 Validator('telephone') 返回的验证函数通过属性的方式传入自定义form组件 
 */
 const Validator = (strategyName) => {
   return (data) => {
@@ -385,7 +385,8 @@ vue做网页其实很容易引起白屏，使用路由懒加载可以加快加�
 
 <br>
 
-#### 分配置环境测试与打包（官方文档 'https://cli.vuejs.org/zh/guide/mode-and-env.html'）
+#### 分配置环境测试与打包
+官方文档https://cli.vuejs.org/zh/guide/mode-and-env.html
 
 不同的配置环境是为了区分正式和测试版本的运行环境如：测试版本需要运行专门的测试服务器，需要添加调试语句和移动端调试器，没有压缩优化代码等，这些为了开发调试而专门设置的工具会在正式版本打包中应要被删除或者优化。
 
