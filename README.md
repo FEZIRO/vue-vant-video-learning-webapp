@@ -383,6 +383,26 @@ vue做网页其实很容易引起白屏，使用路由懒加载可以加快加�
 
 <br>
 
+### iPhoneX 全面屏手势适配问题
+
+safe-area-inset-top, safe-area-inset-right, safe-area-inset-bottom, safe-area-inset-left safe-area-inset-*由四个定义了视口边缘内矩形的 top, right, bottom 和 left 的环境变量组成，这样可以安全地放入内容，而不会有被非矩形的显示切断的风险。对于矩形视口，例如普通的笔记本电脑显示器，其值等于零。对于非矩形显示器（如圆形表盘，iPhoneX 屏幕），在用户代理设置的四个值形成的矩形内，所有内容均可见。
+
+``````css
+// 在底部导航栏css样式设置safe-area-inset-bottom
+padding-bottom: constant(safe-area-inset-bottom, 20px);
+padding-bottom: env(safe-area-inset-bottom, 20px);
+padding-bottom: var(safe-area-inset-bottom, 20px);
+``````
+
+其中 env() 用法为 env( <custom-ident> , <declaration-value>? )，第一个参数为自定义的区域，第二个为备用值。
+其中 var() 用法为 var( <custom-property-name> , <declaration-value>? )，作用是在 env() 不生效的情况下，给出一个备用值。
+constant（） 被 css 2017-2018 年为草稿阶段，是否已被标准化未知。而其他iOS 浏览器版本中是否有此函数未知，作为兼容处理而添加进去。
+![适配前后对比](https://pic.downk.cc/item/5eb42bc4c2a9a83be59f5cfb.jpg)
+
+
+<br/>
+
+
 ### 分配置环境测试与打包
 
 不同的配置环境是为了区分正式和测试版本的运行环境如：测试版本需要运行专门的测试服务器，需要添加调试语句和移动端调试器，没有压缩优化代码等，这些为了开发调试而专门设置的工具会在正式版本打包中应要被删除或者优化。
