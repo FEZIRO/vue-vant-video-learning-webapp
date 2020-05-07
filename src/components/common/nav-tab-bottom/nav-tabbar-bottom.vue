@@ -58,6 +58,7 @@ export default {
   box-shadow: 0 -5px 10px 0 rgba(#ccc, 0.2);
   padding: 8px 0;
   font-size: 12px;
+  padding-bottom: env(safe-area-inset-bottom, 50px);
 
   .nav-bar-item{
     display: flex;
