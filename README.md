@@ -397,6 +397,8 @@ padding-bottom: var(safe-area-inset-bottom, 20px);
 其中 env() 用法为 env( <custom-ident> , <declaration-value>? )，第一个参数为自定义的区域，第二个为备用值。
 其中 var() 用法为 var( <custom-property-name> , <declaration-value>? )，作用是在 env() 不生效的情况下，给出一个备用值。
 constant（） 被 css 2017-2018 年为草稿阶段，是否已被标准化未知。而其他iOS 浏览器版本中是否有此函数未知，作为兼容处理而添加进去。
+
+适配前后对比图
 ![适配前后对比](https://pic.downk.cc/item/5eb42bc4c2a9a83be59f5cfb.jpg)
 
 
