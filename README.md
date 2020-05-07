@@ -29,11 +29,11 @@
 
 假数据素材来源网络测试链接，模拟真实数据。
 
-<img alt="首页" src="https://pic.downk.cc/item/5eafcec1c2a9a83be5906660.jpg" style="zoom:25%;" /><img alt="分类" src="https://pic.downk.cc/item/5eafce7ec2a9a83be5901d04.jpg" style="zoom:25%;" /><img alt="我的学习" src="https://pic.downk.cc/item/5eafcecac2a9a83be59070df.jpg" style="zoom:25%;" /><img alt="个人中心" src="https://pic.downk.cc/item/5eafcec1c2a9a83be5906665.jpg" style="zoom:25%;" />
+![效果图1](https://pic.downk.cc/item/5eb381c8c2a9a83be5eadfe1.jpg)
 
-<img alt="搜索" src="https://pic.downk.cc/item/5eafcec1c2a9a83be5906662.jpg	" style="zoom:25%;" /><img alt="课程详情" src="https://pic.downk.cc/item/5eafcec1c2a9a83be5906669.jpg" style="zoom:25%;" /><img alt="修改用户名" src="https://pic.downk.cc/item/5eafcec1c2a9a83be590666d.jpg" style="zoom:25%;" /><img alt="答题" src="https://pic.downk.cc/item/5eafce7ec2a9a83be5901ced.jpg" style="zoom:25%;" />
+![效果图2](https://pic.downk.cc/item/5eb381c8c2a9a83be5eadfe5.jpg)
 
-<img alt="提交答题" src="https://pic.downk.cc/item/5eafce7ec2a9a83be5901cf2.jpg" style="zoom:25%;" /><img alt="登录" src="https://pic.downk.cc/item/5eafce7ec2a9a83be5901cfc.jpg" style="zoom:25%;" /><img alt="骨架屏" src="https://pic.downk.cc/item/5eafce7ec2a9a83be5901d01.jpg" style="zoom:25%;" />
+![效果图3](https://pic.downk.cc/item/5eb381c8c2a9a83be5eadfe8.jpg)
 
 <br>
 
