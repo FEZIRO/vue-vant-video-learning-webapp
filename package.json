@@ -24,7 +24,7 @@
     "@vue/cli-service": "~4.3.0",
     "babel-plugin-import": "^1.13.0",
     "mockjs": "^1.1.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "postcss-pxtorem": "^5.1.1",
     "sass-loader": "^8.0.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
